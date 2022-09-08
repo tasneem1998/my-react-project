@@ -1,7 +1,14 @@
+import React from "react";
+import Banner from "./components/Banner";
+import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
-    <h1 className="text-center text-success mt-5">All The Best 👍!!!!</h1>
+    <>
+      <Navbar />
+      <Banner />
+    </>
   );
 }
 
