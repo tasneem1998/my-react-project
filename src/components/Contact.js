@@ -3,10 +3,11 @@ import React from 'react'
 const Contact = () => {
     return (
         <section className='container mt-5'>
-            <div className='card p-3'>
-                <div className='card-body'>
-                    <div className='row'>
-                        <div className='col-md-6 border-end'>
+            <div className='row justify-content-center'>
+                <div className='col-md-8'>
+                    <div className='card p-3'>
+                        <div className='card-body'>
+                            <h2 className='text-center'>Contact Us</h2>
                             <form>
                                 <div className="mb-3">
                                     <label htmlFor="name" className="form-label">Full Name</label>
@@ -30,19 +31,7 @@ const Contact = () => {
                                 </div>
                                 <button type="submit" className="btn btn-primary">Submit</button>
                             </form>
-
                         </div>
-                        <div className='col-md-6'>
-                            <h2>Contact Us</h2>
-                            <ul>
-                                <li>HAHA</li>
-                                <li>HIHIH</li>
-                                <li>HUHU</li>
-                                <li>BHUBHU</li>
-                                <li>BHFEE</li>
-                            </ul>
-                        </div>
-
                     </div>
                 </div>
             </div>
