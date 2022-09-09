@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <nav className="container-fluid shadow fixed-bottom shadow">
+        <nav className="container-fluid shadow mt-5 mb-0 border-top">
             <div
                 className="d-flex justify-content-between align-items-center mx-auto py-4 flex-wrap"
                 style={{ width: '80%' }}

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <section className='container mt-5'>
-            <div className='row justify-content-center'>
+        <section className='container my-5'>
+            <div className='row justify-content-center py-2'>
                 <div className='col-md-8'>
                     <div className='card p-3'>
                         <div className='card-body'>
